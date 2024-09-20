@@ -22,7 +22,7 @@ ac $DefaultGame 'bGenerateChunks=True'
 ac $DefaultGame 'bShareMaterialShaderCode=False'
 ```
 ```powershell
-# Download VictoryPlugin27
+# Download VictoryPlugin27 (86.5 MB)
 $vpurl = 'https://github.com/jiltq/votv-modding-for-dummies/releases/download/VictoryPlugin27/VictoryPlugin27.zip'
 $cont = (iwr $vpurl).Content
 ```
@@ -56,5 +56,7 @@ And fire up the editor...!
 ```
 After this, Unreal Engine will remember the project and let you open it from the project select menu.
 
-## In the Editor
+## Editor Setup
+You'll want to make sure that "Victory Plugin" is enabled. To do so, go to Edit > Preferences > Plugins and search the name
+
 wip
